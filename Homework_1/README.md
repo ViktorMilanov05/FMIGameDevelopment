@@ -1,0 +1,1 @@
+The provided assets have been modified, so some images are different. For example, the main character is now a bunny, and carrots are used instead of keys.
