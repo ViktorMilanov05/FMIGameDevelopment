@@ -1,14 +1,14 @@
+using System;
 using UnityEngine;
 
 public class CarrotPickup : MonoBehaviour
 {
-    [SerializeField]
-    private CarrotUI carrotUI;
+    public static Action OnCarrotCollected;
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            carrotUI.AddCarrot();
+            OnCarrotCollected?.Invoke();
             Destroy(gameObject);
         } 
     }

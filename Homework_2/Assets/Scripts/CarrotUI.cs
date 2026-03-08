@@ -10,6 +10,16 @@ public class CarrotUI : MonoBehaviour
 
     private Color emptyColor = new Color(1f, 1f, 1f, 0.59f);
     private Color fullColor = new Color(1f, 1f, 1f, 1f);
+
+    void OnEnable()
+    {
+        CarrotPickup.OnCarrotCollected += AddCarrot;    
+    }
+    void OnDisable()
+    {
+        CarrotPickup.OnCarrotCollected -= AddCarrot;    
+    }
+
     void Start()
     {
         for (int i = 0; i < carrots.Length; i++)
