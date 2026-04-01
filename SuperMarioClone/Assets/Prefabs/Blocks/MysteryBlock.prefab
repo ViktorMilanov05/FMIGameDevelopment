@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 392495232665055736}
   - component: {fileID: 3752565109335263811}
   - component: {fileID: 6121173219896818379}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MysteryBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}

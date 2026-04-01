@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6703994645595804663}
   - component: {fileID: 4040066263857902342}
   - component: {fileID: 695923705168024645}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UndergroundBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}

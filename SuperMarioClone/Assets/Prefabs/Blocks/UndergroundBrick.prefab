@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2494087854129406973}
   - component: {fileID: 1367925358929831474}
   - component: {fileID: 1019811936526660543}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: UndergroundBrick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
