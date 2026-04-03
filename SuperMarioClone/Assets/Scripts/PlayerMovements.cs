@@ -1,11 +1,18 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovements : MonoBehaviour
 {
-    [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float jumpForce = 7.5f;
-    [SerializeField] private float groundCheckDistance = 0.1f;
+    [SerializeField]
+    private LayerMask groundLayer;
+    [SerializeField]
+    private float speed = 5f;
+    [SerializeField]
+    private float jumpForce = 7.5f;
+    [SerializeField]
+
+    private List<GoombaBehaviour> subscribedGoombas = new List<GoombaBehaviour>();
     private Animator animator;
     private PlayerControls controls;
     private Rigidbody2D rigidBody;
@@ -16,10 +23,12 @@ public class PlayerMovements : MonoBehaviour
     private float minJumpTimer;
     private float playerHalfWidth;
     private float leftLimit;
+    private float groundCheckDistance = 0.1f;
     private bool isJumpRequested;
     private bool isJumpHeld;
     private bool isGrounded;
     private bool wasGrounded;
+
 
     void Awake()
     {
@@ -43,8 +52,26 @@ public class PlayerMovements : MonoBehaviour
         };
     }
 
-    void OnEnable() => controls.Player.Enable();
-    void OnDisable() => controls.Player.Disable();
+    void OnEnable()
+    {
+        controls.Player.Enable();
+        foreach (var goomba in FindObjectsByType<GoombaBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None))
+        {
+            goomba.OnSmashed += BounceAfterEnemyHit;
+            subscribedGoombas.Add(goomba);
+        }
+
+    }
+    void OnDisable() 
+    {
+        controls.Player.Disable();
+        foreach (var goomba in subscribedGoombas)
+        {
+            if (goomba != null)
+                goomba.OnSmashed -= BounceAfterEnemyHit;
+        }
+        subscribedGoombas.Clear();
+    }
 
     void Start()
     {
@@ -100,7 +127,10 @@ public class PlayerMovements : MonoBehaviour
             );
         }
     }
-
+    public void BounceAfterEnemyHit()
+    {
+        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpForce / 2);
+    }
     void Jump()
     {
         rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpForce);
