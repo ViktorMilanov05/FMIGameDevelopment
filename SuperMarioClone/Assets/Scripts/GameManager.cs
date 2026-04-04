@@ -42,13 +42,19 @@ public class GameManager : MonoBehaviour
         Level = level;
         SceneManager.LoadScene($"{level}");
     }
-    public void ResetLevel()
+
+    public void ResetLevel(float delay = 0)
+    {
+        Invoke(nameof(ResetLevel), delay);
+    }
+
+    private void ResetLevel()
     {
         Lives--;
 
         if(Lives > 0)
         {
-            LoadLevel(Lives);
+            LoadLevel(Level);
         }
         else
         {

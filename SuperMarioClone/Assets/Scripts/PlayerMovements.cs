@@ -1,6 +1,8 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerMovements : MonoBehaviour
 {
@@ -12,7 +14,6 @@ public class PlayerMovements : MonoBehaviour
     private float jumpForce = 7.5f;
     [SerializeField]
 
-    private List<GoombaBehaviour> subscribedGoombas = new List<GoombaBehaviour>();
     private Animator animator;
     private PlayerControls controls;
     private Rigidbody2D rigidBody;
@@ -20,7 +21,6 @@ public class PlayerMovements : MonoBehaviour
     private CameraMovement cameraMovement;
     private Vector2 moveInput;
     private float horizontalInput;
-    private float minJumpTimer;
     private float playerHalfWidth;
     private float leftLimit;
     private float groundCheckDistance = 0.1f;
@@ -33,6 +33,10 @@ public class PlayerMovements : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
+        rigidBody = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
+        cameraMovement = Camera.main.GetComponent<CameraMovement>();
+
         controls = new PlayerControls();
 
         controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
@@ -55,29 +59,10 @@ public class PlayerMovements : MonoBehaviour
     void OnEnable()
     {
         controls.Player.Enable();
-        foreach (var goomba in FindObjectsByType<GoombaBehaviour>(FindObjectsInactive.Include, FindObjectsSortMode.None))
-        {
-            goomba.OnSmashed += BounceAfterEnemyHit;
-            subscribedGoombas.Add(goomba);
-        }
-
     }
     void OnDisable() 
     {
         controls.Player.Disable();
-        foreach (var goomba in subscribedGoombas)
-        {
-            if (goomba != null)
-                goomba.OnSmashed -= BounceAfterEnemyHit;
-        }
-        subscribedGoombas.Clear();
-    }
-
-    void Start()
-    {
-        rigidBody = GetComponent<Rigidbody2D>();
-        boxCollider = GetComponent<BoxCollider2D>();
-        cameraMovement = Camera.main.GetComponent<CameraMovement>();
     }
 
     void Update()
@@ -127,9 +112,9 @@ public class PlayerMovements : MonoBehaviour
             );
         }
     }
-    public void BounceAfterEnemyHit()
+    void BounceAfterEnemyHit(float bounceForce)
     {
-        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpForce / 2);
+        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, bounceForce);
     }
     void Jump()
     {
