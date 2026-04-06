@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\deathbarrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathbarrier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\entitymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entitymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\deathhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\koopabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\koopabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\koopashellbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\koopashellbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\goombabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goombabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\playermovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\goombabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\goombabehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\deathhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\entitymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entitymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +50,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeathBarrier.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\DeathBarrier.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeathBarrier.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\DeathBarrier.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeathBarrier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T15:05:04.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KoopaShellBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\KoopaShellBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KoopaShellBehaviour.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\KoopaShellBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KoopaShellBehaviour.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T21:26:53.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KoopaBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\KoopaBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KoopaBehaviour.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\KoopaBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KoopaBehaviour.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:09:12.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\PlayerBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBehaviour.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\PlayerBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerBehaviour.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T18:52:44.975Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EntityMovement.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\EntityMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EntityMovement.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\EntityMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EntityMovement.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T16:05:13.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GoombaBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\GoombaBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GoombaBehaviour.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\GoombaBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GoombaBehaviour.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCAAAACQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T18:01:32.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DeathHandler.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\DeathHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeathHandler.cs",
@@ -50,51 +136,23 @@
               "RelativeToolTip": "Assets\\Scripts\\DeathHandler.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T09:22:13.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T09:22:13.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayerMovements.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\PlayerMovements.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovements.cs",
               "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\PlayerMovements.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovements.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAcAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwBgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T14:16:18.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T14:16:18.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\PlayerBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerBehaviour.cs",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\PlayerBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerBehaviour.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAgwAoAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T09:17:24.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GoombaBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\GoombaBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GoombaBehaviour.cs",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\GoombaBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GoombaBehaviour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T18:01:32.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CameraMovement.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMovement.cs",
@@ -102,12 +160,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-30T14:37:18.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-30T14:37:18.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -116,18 +173,6 @@
               "ViewState": "AQIAAB4AAAAAAAAAAAAIwDsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-03T12:02:33.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EntityMovement.cs",
-              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\EntityMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\EntityMovement.cs",
-              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\EntityMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\EntityMovement.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAIwD0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T16:05:13.595Z"
             }
           ]
         }

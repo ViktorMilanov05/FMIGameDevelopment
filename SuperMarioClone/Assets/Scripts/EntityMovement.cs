@@ -3,9 +3,9 @@ using UnityEngine;
 public class EntityMovement : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 2f;
+    internal float speed = 2f;
     [SerializeField]
-    private Vector2 direction = Vector2.left;
+    internal Vector2 direction = Vector2.left;
 
     private Rigidbody2D rigidBody;
     private Vector2 velocity;
@@ -18,7 +18,10 @@ public class EntityMovement : MonoBehaviour
 
     void OnBecameVisible()
     {
-        enabled = true;
+        if (gameObject.layer != LayerMask.NameToLayer("Shell"))
+        {
+            enabled = true;
+        }
     }
 
     void OnBecameInvisible()
@@ -45,9 +48,14 @@ public class EntityMovement : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Shell") && !collision.gameObject.GetComponent<KoopaShellBehaviour>().Pushed)
+        {
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
+            return;
+        }
         foreach (ContactPoint2D contact in collision.contacts)
         {
-            if (!collision.gameObject.CompareTag("Player"))
+            if (!collision.gameObject.CompareTag("Player") && !collision.gameObject.CompareTag("Enemy") && collision.gameObject.layer != LayerMask.NameToLayer("Shell"))
             {
                 if (Mathf.Abs(contact.normal.x) > 0.5f)
                 {

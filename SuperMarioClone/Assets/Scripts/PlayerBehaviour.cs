@@ -14,27 +14,10 @@ public class PlayerBehaviour : MonoBehaviour
         animator.SetBool("isDeath", false);
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    public void BounceAfterEnemyHit()
     {
-        if (collision.gameObject.TryGetComponent(out GoombaBehaviour goomba))
-        {
-            foreach (var contact in collision.contacts)
-            {
-                if (contact.normal.y > 0.5f && rigidBody.linearVelocity.y <= 0)
-                {
-                    rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, bounceForce);
-                    goomba.Die();
-                    break;
-                }
-                else
-                {
-                    Die();
-                    break;
-                }
-            }
-        }
+        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, bounceForce);
     }
-
     public void Die()
     {
         if (animator != null)
