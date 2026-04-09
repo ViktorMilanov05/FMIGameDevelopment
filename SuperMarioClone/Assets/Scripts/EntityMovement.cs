@@ -53,9 +53,9 @@ public class EntityMovement : MonoBehaviour
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
             return;
         }
-        foreach (ContactPoint2D contact in collision.contacts)
+        foreach (var contact in collision.contacts)
         {
-            if (!collision.gameObject.CompareTag("Player") && !collision.gameObject.CompareTag("Enemy") && collision.gameObject.layer != LayerMask.NameToLayer("Shell"))
+            if (!collision.gameObject.CompareTag("Player") && !collision.gameObject.CompareTag("Enemy"))
             {
                 if (Mathf.Abs(contact.normal.x) > 0.5f)
                 {

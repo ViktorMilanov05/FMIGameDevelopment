@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class GoombaBehaviour : MonoBehaviour
@@ -16,10 +15,9 @@ public class GoombaBehaviour : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            var contact = collision.contacts[0];
             PlayerBehaviour player = collision.gameObject.GetComponent<PlayerBehaviour>();
             Rigidbody2D playerRigidbody = player.GetComponent<Rigidbody2D>();
-            if (contact.normal.y < -0.5f && playerRigidbody.linearVelocity.y <= 0)
+            if (collision.contacts[0].normal.y < -0.5f && playerRigidbody.linearVelocity.y <= 0)
             {
                 player.BounceAfterEnemyHit();
                 Die();
