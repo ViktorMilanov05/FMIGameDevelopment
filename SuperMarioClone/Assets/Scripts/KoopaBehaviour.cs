@@ -6,12 +6,10 @@ public class KoopaBehaviour : MonoBehaviour
     private GameObject shellPrefab;
 
     private Vector3 shashedGoombaSpriteOffset = new(0, -0.28f, 0);
-    private Animator animator;
     private DeathHandler deathHandler;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>();
         deathHandler = GetComponent<DeathHandler>();
     }
 
@@ -43,7 +41,6 @@ public class KoopaBehaviour : MonoBehaviour
     }
     void Hit()
     {
-        animator.enabled = false;
         deathHandler.Die();
         Destroy(gameObject, 3f);
     }

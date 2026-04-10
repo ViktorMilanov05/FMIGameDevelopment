@@ -21,8 +21,6 @@ public class BlockHit : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerBehaviour player = collision.gameObject.GetComponent<PlayerBehaviour>();
-            Rigidbody2D playerRigidbody = player.GetComponent<Rigidbody2D>();
             foreach (var contact in collision.contacts)
             {
                 if (!animating && maxHits != 0 && contact.normal.y > 0.5f)

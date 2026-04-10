@@ -108,10 +108,6 @@ public class PlayerMovements : MonoBehaviour
             );
         }
     }
-    void BounceAfterEnemyHit(float bounceForce)
-    {
-        rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, bounceForce);
-    }
     void Jump()
     {
         rigidBody.linearVelocity = new Vector2(rigidBody.linearVelocity.x, jumpForce);

@@ -18,11 +18,12 @@ public class KoopaShellBehaviour : MonoBehaviour
         {
             PlayerBehaviour player = collision.gameObject.GetComponent<PlayerBehaviour>();
             Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
-            bool fromAbove = collision.contacts[0].normal.y < -0.5f && playerRb.linearVelocity.y <= 0;
-
-            if (fromAbove)
+            foreach (var contact in collision.contacts)
             {
-                player.BounceAfterEnemyHit();
+                if (contact.normal.y < -0.5f && playerRb.linearVelocity.y <= 0)
+                {
+                    player.BounceAfterEnemyHit();
+                }
             }
 
             if (!Pushed)

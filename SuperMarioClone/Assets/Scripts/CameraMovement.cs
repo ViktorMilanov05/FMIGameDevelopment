@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-
-    public float leftLimit;
+    internal float leftLimit;
 
     private Transform player;
     private Camera mainCamera;
