@@ -32,8 +32,10 @@ public class PowerUp : MonoBehaviour
                 GameManager.Instance.AddLife();
                 break;
             case Type.MagicMushroom:
+                player.GetComponent<PlayerBehaviour>().Grow();
                 break;
             case Type.Starpower:
+                player.GetComponent<PlayerBehaviour>().GetStarpower(10);
                 break;
         }
         Destroy(gameObject);

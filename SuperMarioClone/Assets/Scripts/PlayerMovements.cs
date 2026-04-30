@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerMovements : MonoBehaviour
 {
+    public Vector2 MoveInput => moveInput;
+
     [SerializeField]
     private LayerMask groundLayer;
     [SerializeField]
@@ -11,7 +13,7 @@ public class PlayerMovements : MonoBehaviour
     [SerializeField]
 
     private Animator animator;
-    private PlayerControls controls;
+    internal PlayerControls controls;
     private Rigidbody2D rigidBody;
     private BoxCollider2D boxCollider;
     private CameraMovement cameraMovement;
@@ -55,10 +57,16 @@ public class PlayerMovements : MonoBehaviour
     void OnEnable()
     {
         controls.Player.Enable();
+        rigidBody.bodyType = RigidbodyType2D.Dynamic;
+        boxCollider.enabled = true;
     }
     void OnDisable() 
     {
         controls.Player.Disable();
+        rigidBody.linearVelocity = Vector2.zero;
+        rigidBody.bodyType = RigidbodyType2D.Kinematic;
+        boxCollider.enabled = false;
+        animator.SetBool("isJumping", false);
     }
 
     void Update()

@@ -17,14 +17,18 @@ public class GoombaBehaviour : MonoBehaviour
         {
             PlayerBehaviour player = collision.gameObject.GetComponent<PlayerBehaviour>();
             Rigidbody2D playerRigidbody = player.GetComponent<Rigidbody2D>();
-            if (collision.contacts[0].normal.y < -0.5f && playerRigidbody.linearVelocity.y <= 0)
+            if (player.Starpower)
+            {
+                Hit();
+            }
+            else if (collision.contacts[0].normal.y < -0.5f && playerRigidbody.linearVelocity.y <= 0)
             {
                 player.BounceAfterEnemyHit();
                 Die();
             }
             else
             {
-                player.Die();
+                player.Hit();
             }
 
         }

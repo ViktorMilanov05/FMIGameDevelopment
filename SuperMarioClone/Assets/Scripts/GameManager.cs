@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,9 +9,15 @@ public class GameManager : MonoBehaviour
     public int Level { get; private set; }
     public int Lives { get; private set; }
     public int Coins {  get; private set; }
+
+    public event Action<int> OnLivesChanged;
+    public event Action<int> OnCoinsChanged;
+    public event Action<int> OnLevelChanged;
+
+    private int maxLevel = 2;
     void Awake()
     {
-        if(Instance != null)
+        if (Instance != null)
         {
             Destroy(gameObject);
         }
@@ -37,11 +44,14 @@ public class GameManager : MonoBehaviour
         Lives = 3;
         Coins = 0;
 
+        OnLivesChanged?.Invoke(Lives);
+        OnCoinsChanged?.Invoke(Coins);
         LoadLevel(1);
     }
     void LoadLevel(int level)
     {
         Level = level;
+        OnLevelChanged?.Invoke(level);
         SceneManager.LoadScene($"{level}");
     }
 
@@ -54,7 +64,9 @@ public class GameManager : MonoBehaviour
     {
         Lives--;
 
-        if(Lives > 0)
+        OnLivesChanged?.Invoke(Lives);
+
+        if (Lives > 0)
         {
             LoadLevel(Level);
         }
@@ -65,26 +77,29 @@ public class GameManager : MonoBehaviour
     }
     private void GameOver()
     {
-        //to do: make game over screen
         NewGame();
     }
-
-    //if I make another levels
     public void NextLevel()
     {
-        LoadLevel(Level + 1);
+        if (Level == maxLevel)
+        {
+            NewGame();
+        }
+        else
+        {
+            LoadLevel(Level + 1);
+        }
     }
 
     public void AddCoin()
     {
         Coins++;
-        if(Coins == 1)
-        {
-            AddLife();
-        }
+        OnCoinsChanged?.Invoke(Coins);
     }
 
     public void AddLife()
     {
-        Lives++;    }
+        Lives++;
+        OnLivesChanged?.Invoke(Lives);
+    }
 }

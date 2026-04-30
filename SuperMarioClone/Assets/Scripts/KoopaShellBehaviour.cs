@@ -4,11 +4,14 @@ public class KoopaShellBehaviour : MonoBehaviour
 {
     [SerializeField] private float speed = 12f;
     private EntityMovement movement;
+    private DeathHandler deathHandler;
+
     internal bool Pushed { get; private set; }
 
     private void Awake()
     {
         movement = GetComponent<EntityMovement>();
+        deathHandler = GetComponent<DeathHandler>();
         movement.enabled = false;
     }
 
@@ -33,7 +36,11 @@ public class KoopaShellBehaviour : MonoBehaviour
             }
             else
             {
-                player.Die();
+                if (player.Starpower)
+                {
+                    Hit();
+                }
+                player.Hit();
             }
         }
     }
@@ -44,6 +51,12 @@ public class KoopaShellBehaviour : MonoBehaviour
         movement.direction = direction;
         movement.speed = speed;
         movement.enabled = true;
+    }
+
+    void Hit()
+    {
+        deathHandler.Die();
+        Destroy(gameObject, 3f);
     }
 
     void OnBecameInvisible()
