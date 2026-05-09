@@ -5,7 +5,7 @@ public class KoopaBehaviour : MonoBehaviour
     [SerializeField]
     private GameObject shellPrefab;
 
-    private Vector3 shashedGoombaSpriteOffset = new(0, -0.28f, 0);
+    private Vector3 shelledKoombaSpriteOffset = new(0, -0.28f, 0);
     private DeathHandler deathHandler;
 
     private void Awake()
@@ -40,7 +40,7 @@ public class KoopaBehaviour : MonoBehaviour
     }
     private void EnterShell()
     {
-        Instantiate(shellPrefab, transform.position + shashedGoombaSpriteOffset, Quaternion.identity);
+        Instantiate(shellPrefab, transform.position + shelledKoombaSpriteOffset, Quaternion.identity);
         Destroy(gameObject);
     }
     void Hit()
