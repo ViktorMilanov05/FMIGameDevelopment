@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class BlockItem : MonoBehaviour
+public class BlockItem : SpawnedItem
 {
 
     private Rigidbody2D rigidBody;
@@ -28,22 +28,9 @@ public class BlockItem : MonoBehaviour
 
         spriteRenderer.enabled = true;
 
-        float elapsed = 0f;
-        float duration = 0.5f;
-
         Vector3 startPosition = transform.localPosition;
         Vector3 endPosition = transform.localPosition + Vector3.up;
-        while (elapsed < duration)
-        {
-            float percentOfAnimation = elapsed / duration;
-
-            transform.localPosition = Vector3.Lerp(startPosition,endPosition, percentOfAnimation);
-            elapsed += Time.deltaTime;
-
-            yield return null;
-        }
-
-        transform.localPosition = endPosition;
+        yield return Move(startPosition, endPosition, 0.5f);
 
         rigidBody.simulated = true;
         physicsCollider.enabled = true;

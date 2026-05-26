@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 707120901707862568}
   - component: {fileID: 4112224083248634126}
   - component: {fileID: 6502478147891000146}
-  - component: {fileID: -3275580231434393805}
+  - component: {fileID: 6440735631192637186}
   m_Layer: 0
   m_Name: MagicMushroom
   m_TagString: Untagged
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 792b0df83ac720346bd824588c74cdba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockItem
---- !u!114 &-3275580231434393805
+--- !u!114 &6440735631192637186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -241,7 +241,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4505599639069243269}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca15260897f12043919780216839399, type: 3}
+  m_Script: {fileID: 11500000, guid: 5634e6b53f6e1ad4b87e78ee7413526b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PowerUp
-  type: 2
+  m_EditorClassIdentifier: Assembly-CSharp::MagicMushroom

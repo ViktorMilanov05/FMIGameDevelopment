@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5222625137122172330}
   - component: {fileID: 5540884646371397127}
   - component: {fileID: 4282029010017780856}
-  - component: {fileID: 1055136091094914263}
+  - component: {fileID: 1009779235831473802}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Untagged
@@ -139,7 +139,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1055136091094914263
+--- !u!114 &1009779235831473802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,7 +148,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7364215405233324512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca15260897f12043919780216839399, type: 3}
+  m_Script: {fileID: 11500000, guid: cc326be6b5572d44f94265d0939729a0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PowerUp
-  type: 0
+  m_EditorClassIdentifier: Assembly-CSharp::Coin

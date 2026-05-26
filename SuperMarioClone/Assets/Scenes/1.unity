@@ -1079,7 +1079,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (10)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1055136091094914263, guid: 1f0e92af17297444ea8c77d3a0ba67b7, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -10444,7 +10445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51aaa1a26689b314980ab9f7b3566c55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  winPanel: {fileID: 0}
 --- !u!4 &1773453184
 Transform:
   m_ObjectHideFlags: 0

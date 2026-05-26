@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2615625548120602892}
   - component: {fileID: 2642003670066046867}
   - component: {fileID: 6049333223628684500}
-  - component: {fileID: 5575520253106449937}
+  - component: {fileID: 3415677836940380068}
   m_Layer: 0
   m_Name: 1upMushroom
   m_TagString: Untagged
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 792b0df83ac720346bd824588c74cdba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockItem
---- !u!114 &5575520253106449937
+--- !u!114 &3415677836940380068
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -241,7 +241,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5185120006681720443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ca15260897f12043919780216839399, type: 3}
+  m_Script: {fileID: 11500000, guid: 221411ee4cce23540b5e788251a60f3d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PowerUp
-  type: 1
+  m_EditorClassIdentifier: Assembly-CSharp::ExtraLifeMushroom

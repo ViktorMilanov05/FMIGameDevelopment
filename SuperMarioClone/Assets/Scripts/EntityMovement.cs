@@ -48,7 +48,7 @@ public class EntityMovement : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Shell") && !collision.gameObject.GetComponent<KoopaShellBehaviour>().Pushed)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Shell") && !collision.gameObject.GetComponent<KoopaShell>().Pushed)
         {
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>(), true);
             return;

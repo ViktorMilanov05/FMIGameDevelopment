@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class KoopaShellBehaviour : MonoBehaviour
+public class KoopaShell : MonoBehaviour
 {
     [SerializeField] private float speed = 12f;
     private EntityMovement movement;
