@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\spawneditems\\blockcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawneditems\\blockcoin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\spawneditems\\blockitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\spawneditems\\blockitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawneditems\\blockitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\spawneditems\\spawneditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\spawneditems\\spawneditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawneditems\\spawneditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,19 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuManager.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\MainMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenuManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T17:16:35.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwCUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T17:15:54.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BlockCoin.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\SpawnedItems\\BlockCoin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnedItems\\BlockCoin.cs",
               "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\SpawnedItems\\BlockCoin.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnedItems\\BlockCoin.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-26T20:08:56.923Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BlockItem.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\SpawnedItems\\BlockItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnedItems\\BlockItem.cs",
@@ -47,12 +81,11 @@
               "RelativeToolTip": "Assets\\Scripts\\SpawnedItems\\BlockItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T20:05:17.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T20:05:17.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SpawnedItem.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\SpawnedItems\\SpawnedItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnedItems\\SpawnedItem.cs",
@@ -60,8 +93,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SpawnedItems\\SpawnedItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T20:03:57.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-26T20:03:57.001Z"
             }
           ]
         }

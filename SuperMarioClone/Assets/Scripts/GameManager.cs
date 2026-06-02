@@ -35,11 +35,7 @@ public class GameManager : MonoBehaviour
             Instance = null;
         }
     }
-    void Start()
-    {
-        NewGame();   
-    }
-    void NewGame()
+    internal void NewGame()
     {
         Lives = 3;
         Coins = 0;
