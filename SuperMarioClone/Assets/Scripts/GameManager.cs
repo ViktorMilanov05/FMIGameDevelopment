@@ -73,13 +73,13 @@ public class GameManager : MonoBehaviour
     }
     private void GameOver()
     {
-        NewGame();
+        SceneManager.LoadScene("LoseScreen");
     }
     public void NextLevel()
     {
         if (Level == maxLevel)
         {
-            NewGame();
+            SceneManager.LoadScene("WinScreen");
         }
         else
         {
