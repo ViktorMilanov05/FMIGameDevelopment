@@ -60,6 +60,7 @@ public class EntityMovement : MonoBehaviour
                 if (Mathf.Abs(contact.normal.x) > 0.5f)
                 {
                     direction.x *= -1f;
+                    transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
                     break;
                 }
             }

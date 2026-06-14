@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class LevelGenerator : MonoBehaviour
@@ -20,12 +21,14 @@ public class LevelGenerator : MonoBehaviour
     {
         Vector3 nextSpawn = transform.position;
         LevelChunk start = Instantiate(firstChunk, nextSpawn, Quaternion.identity);
+        Console.WriteLine($"Start generated at {nextSpawn}");
         nextSpawn = start.EndPoint;
 
         int lastIndex = -1;
         for (int i = 0; i < middleChunkCount; i++)
         {
-            int index = Random.Range(0, middleChunks.Length);
+            System.Random random = new System.Random();
+            int index = random.Next(0, middleChunks.Length);
             if(middleChunks.Length > 1 && index == lastIndex)
             {
                 index = (index + 1) % middleChunks.Length;
@@ -33,9 +36,11 @@ public class LevelGenerator : MonoBehaviour
             lastIndex = index;
 
             LevelChunk chunk = Instantiate(middleChunks[index], nextSpawn, Quaternion.identity);
+            Console.WriteLine($"Chunk {i + 1} generated at {nextSpawn}");
             nextSpawn = chunk.EndPoint;
         }
 
         Instantiate(endChunk, nextSpawn, Quaternion.identity);
+        Console.WriteLine($"Chunk end generated at {nextSpawn}");
     }
 }
