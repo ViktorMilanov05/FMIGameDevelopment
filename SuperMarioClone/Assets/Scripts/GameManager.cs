@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public event Action<int> OnCoinsChanged;
     public event Action<int> OnLevelChanged;
 
-    private int maxLevel = 2;
+    private int maxLevel = 4;
     void Awake()
     {
         if (Instance != null)
@@ -48,7 +48,15 @@ public class GameManager : MonoBehaviour
     {
         Level = level;
         OnLevelChanged?.Invoke(level);
-        SceneManager.LoadScene($"{level}");
+
+        if (level == 1)
+        {
+            SceneManager.LoadScene($"{level}");
+        }
+        else
+        {
+            SceneManager.LoadScene("GeneratedLevel");
+        }
     }
 
     public void ResetLevel(float delay = 0)
