@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\player\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\entitymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\entitymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|c:\\users\\vikto\\desktop\\fmigamedevelopment\\supermarioclone\\assets\\scripts\\player\\playermovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\assets\\scripts\\player\\playermovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{063F5D16-3137-B125-4CBB-81BE52C1D37B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PlayerBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\Player\\PlayerBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerBehaviour.cs",
+              "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\Player\\PlayerBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerBehaviour.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T09:25:42.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerMovements.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\Player\\PlayerMovements.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovements.cs",
@@ -30,18 +47,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovements.cs",
               "ViewState": "AQIAAEgAAAAAAAAAAAAowGMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T12:43:37.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-14T12:43:37.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EntityMovement.cs",
               "DocumentMoniker": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\EntityMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EntityMovement.cs",
               "ToolTip": "C:\\Users\\vikto\\Desktop\\FMIGameDevelopment\\SuperMarioClone\\Assets\\Scripts\\EntityMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\EntityMovement.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAA9wD4AAACCAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowD4AAACCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-14T12:41:50.275Z",
               "EditorCaption": ""

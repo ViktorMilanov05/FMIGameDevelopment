@@ -30,18 +30,21 @@ public class PlayerBehaviour : MonoBehaviour
 
     public void Grow()
     {
-
-        animator.SetBool("isBig", true);
-        boxCollider.size = new Vector2(boxCollider.size.x, boxCollider.size.y * 2f);
-        rigidBody.MovePosition(rigidBody.position + bigMarioSpriteOffset);
-
+        if (!animator.GetBool("isBig"))
+        {
+            animator.SetBool("isBig", true);
+            boxCollider.size = new Vector2(boxCollider.size.x, boxCollider.size.y * 2f);
+            rigidBody.MovePosition(rigidBody.position + bigMarioSpriteOffset);
+        }
     }
     public void Shrink()
     {
-
-        animator.SetBool("isBig", false);
-        boxCollider.size = new Vector2(boxCollider.size.x, boxCollider.size.y / 2f);
-        rigidBody.MovePosition(rigidBody.position - bigMarioSpriteOffset);
+        if (animator.GetBool("isBig"))
+        {
+            animator.SetBool("isBig", false);
+            boxCollider.size = new Vector2(boxCollider.size.x, boxCollider.size.y / 2f);
+            rigidBody.MovePosition(rigidBody.position - bigMarioSpriteOffset);
+        }
     }
     public void Hit()
     {

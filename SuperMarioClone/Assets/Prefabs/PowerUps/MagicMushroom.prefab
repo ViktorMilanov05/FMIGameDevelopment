@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4112224083248634126}
   - component: {fileID: 6502478147891000146}
   - component: {fileID: 6440735631192637186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MagicMushroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}

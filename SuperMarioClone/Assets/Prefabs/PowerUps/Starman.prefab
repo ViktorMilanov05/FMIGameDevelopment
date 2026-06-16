@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -6252461717144586959}
   - component: {fileID: -2431417316039700327}
   - component: {fileID: -4771236249821770534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Starman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
