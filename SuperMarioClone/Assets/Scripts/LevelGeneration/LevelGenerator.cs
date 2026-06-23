@@ -21,7 +21,6 @@ public class LevelGenerator : MonoBehaviour
     {
         Vector3 nextSpawn = transform.position;
         LevelChunk start = Instantiate(firstChunk, nextSpawn, Quaternion.identity);
-        Console.WriteLine($"Start generated at {nextSpawn}");
         nextSpawn = start.EndPoint;
 
         int lastIndex = -1;
@@ -36,11 +35,9 @@ public class LevelGenerator : MonoBehaviour
             lastIndex = index;
 
             LevelChunk chunk = Instantiate(middleChunks[index], nextSpawn, Quaternion.identity);
-            Console.WriteLine($"Chunk {i + 1} generated at {nextSpawn}");
             nextSpawn = chunk.EndPoint;
         }
 
         Instantiate(endChunk, nextSpawn, Quaternion.identity);
-        Console.WriteLine($"Chunk end generated at {nextSpawn}");
     }
 }

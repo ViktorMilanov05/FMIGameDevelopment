@@ -76,8 +76,7 @@ public class PipeBehaviour : MonoBehaviour
 
             Vector2 input = playerMovements.MoveInput;
 
-            if (input.sqrMagnitude > 0.1f &&
-                Vector2.Dot(input.normalized, requiredInputDirection.normalized) > 0.8f)
+            if (input.sqrMagnitude > 0.1f && Vector2.Dot(input.normalized, requiredInputDirection.normalized) > 0.8f)
             {
                 StartCoroutine(Enter(other.transform));
             }

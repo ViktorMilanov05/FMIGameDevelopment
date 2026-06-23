@@ -13,13 +13,13 @@ public abstract class GameUIBase : MonoBehaviour
     protected virtual void Start()
     {
         cameraMovement = Camera.main.GetComponent<CameraMovement>();
-        cameraMovement.OnUndergroundChanged += OnUndergroundChaned;
+        cameraMovement.OnUndergroundChanged += OnUndergroundChanged;
         Subscribe();
     }
 
     protected abstract void Subscribe();
     protected abstract void Unsubscribe();
-    private void OnUndergroundChaned(bool isUndergound) 
+    private void OnUndergroundChanged(bool isUndergound) 
     {
         label.color = isUndergound ? Color.white : Color.black;
     }
